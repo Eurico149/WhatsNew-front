@@ -1,0 +1,46 @@
+.home-header header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #111111;
+    color: inherit;
+    border-radius: 0 0 0.5rem 0.5rem;
+    border-bottom: 2px solid #4744B4;
+    font-family: "Jaro", sans-serif;
+}
+
+.home-header img {
+    height: 3rem;
+    width: 3rem;
+}
+
+.sign-in-up button {
+    font-family: inherit;
+    border: none;
+    color: inherit;
+}
+
+.sign-in-up button:hover {
+    cursor: pointer;
+    color: #3b403f;
+}
+
+.sign-in {
+    background-color: transparent;
+    margin-right: 0.5rem;
+}
+
+.sign-up {
+    background-color: #4744B4;
+    border-radius: 0.5rem;
+    padding: 0.3rem 1rem;
+    margin-right: 0.8rem;
+}
+
+.logo {
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
