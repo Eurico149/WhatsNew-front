@@ -1,7 +1,7 @@
-import "./header.css"
+import "./home-header.css"
 
 
-export function Header() {
+export function HomeHeader() {
     return (
         <div className="home-header">
             <header>
