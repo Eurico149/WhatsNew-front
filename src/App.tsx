@@ -1,15 +1,11 @@
-import {Header} from "./components/header.tsx";
-import {Footer} from "./components/footer.tsx";
+import {RouterProvider} from "react-router-dom";
+import {router} from "./routes";
+
 
 
 function App() {
     return (
-        <div className="App">
-            <Header/>
-
-
-            <Footer/>
-        </div>
+        <RouterProvider router={router} ></RouterProvider>
     );
 }
 

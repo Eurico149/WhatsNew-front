@@ -11,13 +11,13 @@ export function Footer() {
                 </div>
                 <div className="footer-logos">
                     <a href="https://github.com/Eurico149">
-                        <img src="/public/github.svg" alt="Github"/>
+                        <img src="/github.svg" alt="Github"/>
                     </a>
                     <a href="https://www.linkedin.com/in/euricogvp/">
-                        <img src="/public/linkedin.svg" alt="Linkedin"/>
+                        <img src="/linkedin.svg" alt="Linkedin"/>
                     </a>
                     <a href="https://www.instagram.com/eurico_gabriel149/">
-                        <img src="/public/instagram.svg" alt="Instagram"/>
+                        <img src="/instagram.svg" alt="Instagram"/>
                     </a>
                 </div>
             </footer>
