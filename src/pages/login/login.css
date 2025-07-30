@@ -4,10 +4,19 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
+    font-size: 20px;
+}
+
+.login-container hr {
+    margin-top: 0.5rem;
+    width: 100%;
+    height: 1px;
+    border: none;
+    background-color: #7e7e7e;
 }
 
 .image-container {
-    padding: 6%;
+    padding: 8rem;
 }
 
 .login-container {
@@ -19,4 +28,107 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.login-container form{
+    width: 30rem;
+}
+
+.login-container button{
+    padding: 0.4rem;
+    margin-top: 1rem;
+    width: 100%;
+    background-color: #4744B4;
+    color: white;
+    border-radius: 1rem;
+    font-family: inherit;
+    font-size: 20px;
+}
+
+.login-container button:hover {
+    background-color: #3B3A8C;
+    cursor: pointer;
+}
+
+.input-container {
+    height: 2rem;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #3B403F;
+    border-radius: 0.4rem;
+}
+
+.input-container input {
+    width: 100%;
+    border: none;
+    font-size: 16px;
+    font-family: inherit;
+}
+
+.input-container img {
+    width: 1.5rem;
+    margin: 0.1rem;
+}
+
+.input-container input:focus {
+    outline: none;
+    border: none;
+}
+
+.checkbox-forgotpass-container {
+    margin-top: 0.1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 14px;
+}
+
+.checkbox-forgotpass-container input[type="checkbox"]:hover {
+    cursor: pointer;
+}
+
+.checkbox-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.social-login-container {
+    font-size: 12px;
+}
+
+.text-opt-login{
+    font-size: 14px;
+}
+
+.social-login {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-login button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.2rem;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding: 0.2rem;
+    background-color: transparent;
+}
+
+.social-login button:hover {
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.social-login img {
+    width: 2.3rem;
+    height: auto;
 }

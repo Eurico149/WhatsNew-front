@@ -24,26 +24,29 @@ export const Login = () => {
             <div className="login-container">
                 <h1>Login</h1>
                 <form onSubmit={handleSubmit}>
-                    <div>
+                    <div className="input-container">
                         <img src="/email.svg" alt="Email"/>
                         <input type="email" required placeholder="Email"  onChange={(e) => setEmail(e.target.value)}/>
                     </div>
-                    <div>
+                    <div className="input-container">
                         <img src="/password.svg" alt="Password"/>
                         <input type="password" required placeholder="Password" onChange={(e) => setPassword(e.target.value)}/>
                     </div>
-                    <div>
-                        <input type="checkbox" onChange={() => setRememberMe(!rememberMe)}/>
-                        <span>Remember Me</span>
+                    <div className="checkbox-forgotpass-container">
+                        <div className="checkbox-container">
+                            <input type="checkbox" onChange={() => setRememberMe(!rememberMe)}/>
+                            <span>Remember Me</span>
+                        </div>
+                        <a href="#">Forgot Password?</a>
                     </div>
-                    <span>Forgot Password?</span>
                     <button type="submit">Sign-In</button>
+                    <hr/>
                 </form>
 
-                <hr/>
-                <span>Or Continue With</span>
 
-                <div>
+                <span className="text-opt-login">Or Continue With</span>
+
+                <div className="social-login">
                     <button onClick={() => loginWithGoogle(rememberMe)}>
                         <img src="/google.svg" alt="Google"/>
                     </button>
